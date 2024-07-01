@@ -1,6 +1,35 @@
 Arrays and Strings----------------
 1)Find the duplicate number in an array of integers.
+function findDuplicate (arr) {
+    arr.sort((a,b)=>{ return a-b } );
+    for(let i=0; i<=arr.length-1; i++) {
+        if(arr[i] ==arr[i+1]) {
+            return arr[i];
+        }
+    }
+    return -1;
+}
+let array1 = [3, 1, 3, 4, 2];
+console.log(findDuplicate(array1)); 
+
+
 2)Reverse a string in-place.
+function ReverseStr (str) {
+    let StrArr = str.split('');
+for(let i =0; i<=StrArr.length-1; i++) {
+    for(let j=i+1; j<=StrArr.length-1; j++) {
+        if(StrArr[i]<StrArr[j]) {
+            temp = StrArr[i];
+            StrArr[i] = StrArr[j];
+            StrArr[j] = temp;
+        }
+    }
+}
+   return StrArr.join('') ;  
+}
+str = "Hello";
+console.log(ReverseStr(str));
+
 3)Check if two strings are anagrams of each other.
 4)Find the first non-repeating character in a string.
 
