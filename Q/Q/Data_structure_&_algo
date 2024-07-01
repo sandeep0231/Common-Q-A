@@ -30,7 +30,30 @@ for(let i =0; i<=StrArr.length-1; i++) {
 str = "Hello";
 console.log(ReverseStr(str));
 
+
+
 3)Check if two strings are anagrams of each other.
+function  CheckAnagram(str1,str2) {
+    if(str1.length !== str2.length) { 
+        return false;
+        }
+        let counts = {};
+   for(val of str1) {
+       if(counts[val]) {
+           counts[val] = counts[val]+1;
+       } else {
+           counts[val] =1;
+       }
+   } 
+//   console.log(counts); 
+  for(itm of str2 ) {
+      if(!counts[itm]) { return false; }
+      counts[itm] -=1;
+  }
+return true;
+}
+console.log(CheckAnagram(str1="test",str2="tset"));
+
 4)Find the first non-repeating character in a string.
 
 
