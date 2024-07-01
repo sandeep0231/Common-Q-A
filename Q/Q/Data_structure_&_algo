@@ -1,0 +1,32 @@
+Arrays and Strings
+Find the duplicate number in an array of integers.
+Reverse a string in-place.
+Check if two strings are anagrams of each other.
+Find the first non-repeating character in a string.
+Linked Lists
+Reverse a linked list.
+Detect a cycle in a linked list.
+Find the middle element of a linked list in one pass.
+Trees and Graphs
+Implement a binary search tree (BST) and write functions for insert, delete, and search.
+Find the lowest common ancestor (LCA) of two nodes in a binary tree.
+Perform a depth-first search (DFS) and breadth-first search (BFS) on a graph.
+Sorting and Searching
+Implement quicksort and analyze its time complexity.
+Find the k-th smallest element in an unsorted array.
+Given a sorted array, find if there exists a pair of elements that sum to a given target.
+Dynamic Programming
+Calculate the nth Fibonacci number using dynamic programming.
+Find the longest common subsequence (LCS) of two strings.
+Compute the minimum edit distance between two strings.
+Miscellaneous
+Implement a stack using queues and vice versa.
+Design and implement a least recently used (LRU) cache.
+Explain the difference between depth-first search (DFS) and breadth-first search (BFS), and when each is appropriate to use.
+System Design with Data Structures
+Design a URL shortening service (like bit.ly).
+Design a system to manage large sets of geographical coordinates and efficiently find nearby points.
+Advanced Topics
+Discuss different types of hash functions and their applications.
+Explain the concept of Big-O notation and how it relates to the performance of algorithms.
+Describe how you would implement a concurrent data structure or algorithm in a multi-threaded environment.
