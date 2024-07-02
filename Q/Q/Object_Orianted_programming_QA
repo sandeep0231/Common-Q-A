@@ -1,50 +1,52 @@
-Inheritance and Polymorphism:
+Inheritance and Polymorphism:--------------------------------------
 
 Explain the concepts of inheritance and polymorphism.
 Discuss when to use inheritance versus composition.
 Provide examples of polymorphism in practice.
-Design Patterns:
 
+
+Design Patterns:----------------------------------
 Discuss commonly used design patterns such as Singleton, Factory, Observer, Strategy, etc.
 Explain the principles behind each design pattern and when to apply them.
 Provide examples of how these patterns are used in real-world applications.
-Encapsulation and Abstraction:
 
+Encapsulation and Abstraction:----------------------------------
 Define encapsulation and abstraction and explain their importance in OOP.
 Provide examples of how encapsulation helps in achieving data hiding and modularity.
 Discuss the benefits of abstraction in reducing complexity and managing change.
-Interfaces and Abstract Classes:
 
+Interfaces and Abstract Classes:----------------------------------
 Explain the differences between interfaces and abstract classes.
 Discuss when to use interfaces versus abstract classes in design.
 Provide examples of how interfaces and abstract classes promote code reusability and flexibility.
-Composition over Inheritance:
 
+Composition over Inheritance:----------------------------------
 Discuss the principle of favoring composition over inheritance.
 Provide examples where composition is a better choice than inheritance.
 Explain how composition promotes code reuse and flexibility.
-Dependency Injection (DI) and Inversion of Control (IoC):
 
+Dependency Injection (DI) and Inversion of Control (IoC):----------------------------------
 Explain the concepts of DI and IoC and their relationship.
 Discuss how DI promotes loose coupling and testability in applications.
 Provide examples of DI frameworks and how they are used in real-world applications.
-SOLID Principles:
 
+SOLID Principles:----------------------------------
 Explain each of the SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).
 Discuss why these principles are important for creating maintainable and scalable software.
 Provide examples of how violating these principles can lead to design issues.
-Designing for Extensibility and Maintainability:
 
+
+Designing for Extensibility and Maintainability:----------------------------------
 Discuss strategies for designing classes and systems that are easy to extend and maintain.
 Explain the use of design patterns and principles in achieving extensibility and maintainability.
 Provide examples of refactoring techniques that improve code maintainability.
-Concurrency and Multithreading in OOP:
 
+Concurrency and Multithreading in OOP:----------------------------------
 Discuss challenges and solutions related to concurrent programming in OOP.
 Explain thread safety and synchronization techniques such as locks, mutexes, and semaphores.
 Provide examples of how to design classes and systems that are safe for concurrent access.
-Error Handling and Exception Handling:
 
+Error Handling and Exception Handling:----------------------------------
 Discuss best practices for handling errors and exceptions in object-oriented programming.
 Explain the differences between checked and unchecked exceptions.
 Provide examples of how to design robust error handling mechanisms in OOP.
