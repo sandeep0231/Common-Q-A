@@ -88,6 +88,23 @@ console.log(`First non-repeating character in "${inputString}" is: ${result}`);
 --------------------------------------------------------------------------
 Linked Lists---------------------
 1)Reverse a linked list.
+
+function ReverseLinkedList (list) {
+for(let i=0; i<=list.length-1; i++) {
+    for(let j=i; j<=list.length-1; j++) {
+        temp = list[i];
+        list[i] = list[j];
+        list[j] = temp;
+    }
+}    
+return list;
+}
+
+let LinkedList =[1,4,7,5,2];
+console.log(ReverseLinkedList(LinkedList));
+
+
+--------------------------------------------------------
 2)Detect a cycle in a linked list.
 3)Find the middle element of a linked list in one pass.
 
