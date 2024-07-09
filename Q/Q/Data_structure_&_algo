@@ -11,7 +11,7 @@ function findDuplicate (arr) {
 }
 let array1 = [3, 1, 3, 4, 2];
 console.log(findDuplicate(array1)); 
-
+----------------------------------------------------------------
 
 2)Reverse a string in-place.
 function ReverseStr (str) {
@@ -30,7 +30,7 @@ for(let i =0; i<=StrArr.length-1; i++) {
 str = "Hello";
 console.log(ReverseStr(str));
 
-
+------------------------------------------------------------------------
 
 3)Check if two strings are anagrams of each other.
 function  CheckAnagram(str1,str2) {
@@ -53,10 +53,39 @@ function  CheckAnagram(str1,str2) {
 return true;
 }
 console.log(CheckAnagram(str1="test",str2="tset"));
-
+------------------------------------------------------------------------
 4)Find the first non-repeating character in a string.
 
+function firstNonRepeatingChar(str) {
+    // Create a map to store character counts
+    const charCount = new Map();
+    
+    // Iterate through the string to count occurrences of each character
+    for (let char of str) {
+        if (charCount.has(char)) {
+            charCount.set(char, charCount.get(char) + 1);
+        } else {
+            charCount.set(char, 1);
+        }
+    }
+    
+    // Find the first character with count 1 (non-repeating)
+    for (let char of str) {
+        if (charCount.get(char) === 1) {
+            return char;
+        }
+    }
+    
+    // If no non-repeating character found, return null or handle as needed
+    return null;
+}
 
+// Example usage:
+const inputString = "letetlcode";
+const result = firstNonRepeatingChar(inputString);
+console.log(`First non-repeating character in "${inputString}" is: ${result}`);
+
+--------------------------------------------------------------------------
 Linked Lists---------------------
 1)Reverse a linked list.
 2)Detect a cycle in a linked list.
